@@ -145,7 +145,7 @@ async function startConversion() {
   formData.append('format', format);
 
   try {
-    alert("⏳ Converting...");
+    alert("⏳ Converting... Please click 'OK'");
 
     const response = await fetch('https://fileconvert-backend-7epe.onrender.com/convert', {
       method: 'POST',
