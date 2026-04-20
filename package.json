@@ -1,0 +1,18 @@
+{
+  "name": "fileconverter",
+  "version": "1.0.0",
+  "description": "File Converter - Convert images instantly",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "file-converter",
+    "image-converter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
